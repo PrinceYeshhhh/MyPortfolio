@@ -3,51 +3,30 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply bg-netflix-black text-white font-netflix-sans;
-    margin: 0;
-    overflow-x: hidden;
+  html {
+    scroll-behavior: smooth;
   }
 
-  * {
-    box-sizing: border-box;
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-sans;
+  }
+
+  ::selection {
+    @apply bg-blue-600/30 dark:bg-blue-500/30;
   }
 }
 
-@layer components {
-  .netflix-btn-primary {
-        background-color: #e50914; /* fallback for bg-netflix-red */
-        color: #fff; /* text-white */
-        padding-top: 0.5rem; /* py-2 */
-        padding-bottom: 0.5rem;
-        padding-left: 1rem; /* px-4 */
-        padding-right: 1rem;
-        border-radius: 0.25rem; /* rounded */
-        font-weight: 500; /* font-medium */
-        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-        transition-duration: 150ms; /* transition-colors */
+@layer utilities {
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    from, to {
+      opacity: 1;
     }
-    .netflix-btn-primary:hover {
-        background-color: #ce797e; /* fallback for bg-netflix-red-dark */
-  }
-  
-  .netflix-btn-secondary {
-    @apply bg-gray-600 text-white py-2 px-4 rounded font-medium hover:bg-gray-700 transition-colors;
-  }
-  
-  .content-row {
-    @apply py-6;
-  }
-  
-  .content-row-title {
-    @apply text-xl md:text-2xl font-bold mb-3 px-4 md:px-12;
-  }
-  
-  .netflix-card {
-    @apply relative overflow-hidden rounded transition-transform duration-300 ease-in-out;
-  }
-  
-  .netflix-card:hover {
-    @apply transform scale-105 z-10;
+    50% {
+      opacity: 0;
+    }
   }
 }
