@@ -69,7 +69,7 @@ export const personalConfig: PersonalConfig = {
     yearsOfExperience: 4,
     education: "Bachelor's in Computer Science",
     availability: "Open to opportunities",
-    resumeUrl: "Resume/Yeshwanth_Kumar_Reddy_Resume (1) (3) (1).docx"
+    resumeUrl: "public/Resume/Yeshwanth_Kumar_Reddy_Resume (1) (3) (1).docx"
   },
   social: [
     {
@@ -138,24 +138,35 @@ export const personalConfig: PersonalConfig = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Bodha IAS",
       description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      image: "public/images/Bodhasoft_2025-06-07 131412.jpg.png",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       category: "Full Stack",
       link: "https://example.com",
       github: "https://github.com/yourusername/project1"
     },
+
     {
       id: 2,
-      title: "Task Management",
+      title: "Bodha TR",
       description: "A collaborative task management application with real-time updates and team features.",
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      image: "public/images/Bodhasoft_2025-06-07 131412.jpg.png",
       technologies: ["React", "Firebase", "Tailwind CSS"],
       category: "Frontend",
       link: "https://example.com",
       github: "https://github.com/yourusername/project2"
-    }
+    },
+    {
+      id: 3,
+      title: 'WorkShop Area',
+      description: ' WorkShop Area is an interactive platform where users can engage in hands-on coding sessions, live challenges, and peer learning to enhance practical development skills.',
+      image: 'public/images/Bodhasoft_2025-06-07 131412.jpg.png',
+      technologies: ['TypeScript', 'D3.js', 'Express'],
+      category: 'Website',
+      link: 'https://bodhasoft.in/',
+      github: 'https://github.com',
+    },
   ],
   experience: [
     {
