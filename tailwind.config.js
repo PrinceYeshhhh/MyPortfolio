@@ -1,26 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
-      colors: {
-        'netflix-black': '#141414',
-        'netflix-red': '#E50914',
-        'netflix-red-dark': '#B81D24',
-      },
       fontFamily: {
-        'netflix-sans': [
+        sans: [
+          'Inter',
+          'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',
           'Segoe UI',
           'Roboto',
-          'Oxygen',
-          'Ubuntu',
-          'Cantarell',
-          'Open Sans',
           'Helvetica Neue',
+          'Arial',
           'sans-serif',
         ],
+      },
+      animation: {
+        'bounce-slow': 'bounce 3s infinite',
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
       },
     },
   },
