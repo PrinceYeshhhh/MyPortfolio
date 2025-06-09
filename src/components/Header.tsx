@@ -55,7 +55,7 @@ const Header: React.FC = () => {
             {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
           </button>
           <a
-            href="Resume/Yeshwanth_Kumar_Reddy_Resume (1) (3) (1).docx"
+            href="public/resume.pdf"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors"
             download
           >
