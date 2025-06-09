@@ -98,7 +98,7 @@ const Header: React.FC = () => {
                 </a>
               ))}
               <a
-                href="Resume/Yeshwanth_Kumar_Reddy_Resume (1) (3) (1).docx"
+                href="public/resume.pdf"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md inline-block transition-colors"
                 download
               >
