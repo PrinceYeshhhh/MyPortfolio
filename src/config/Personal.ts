@@ -62,8 +62,8 @@ export const personalConfig: PersonalConfig = {
   location: "Tirupati, Andhra Pradesh, India",
   about: {
     description: [
-      "Hello! I'm a passionate developer with expertise in creating modern web applications and apps. With a strong foundation in both frontend and backend technologies using AI. I bring ideas to life through clean code and thoughtful design. Also good at using AI tools and prompt engineering",
-      "My journey in tech began at my school 'Indian Institute Of Technology Tirupati (IIT TP)', where I studied my Engineering in Computer Science. I've collaborated with startups and established companies alike, helping them build scalable digital products that users love."
+      "Hello! I'm a passionate developer with expertise in building modern web applications and apps. With a strong foundation in both frontend and backend technologies using AI. I bring ideas to life through clean code and thoughtful design. Also good at using AI tools and prompt engineering",
+      "My journey in tech began at my college 'Indian Institute Of Technology Tirupati (IIT TP)', where I pursued my Engineering degree in Computer Science. Over the years, I've collaborated with startups and established companies, helping them build scalable digital products that users love."
     ],
     image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     yearsOfExperience: 4,
